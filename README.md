@@ -1,68 +1,46 @@
-# Facial Expression Recognition with CNN
+# Facial Expression Recognition CNN Baseline
 
-## Overview
+This repository contains a small reproducible baseline for facial expression recognition using a convolutional neural network.
 
-This project implements a CNN-based facial expression recognition model for classifying facial images into seven emotion categories.
+The goal of this project is not to propose a new model, but to build a clear end-to-end pipeline for:
 
-The project is inspired by my previous research experience with HKUST CSE, where I worked on deep learning-based facial expression recognition using Python, OpenCV, TensorFlow, and CNN-based models.
+- loading a facial expression dataset
+- preprocessing facial images
+- training a CNN classifier
+- evaluating model performance
+- analyzing common classification errors
 
-## Motivation
+## Why this project
 
-Facial expression recognition is an important task in computer vision and affective computing. It can be used in human-computer interaction, emotion-aware AI systems, education technology, and healthcare-related applications.
+I am interested in computer vision and affective computing. This project is a practice-oriented extension of my previous experience with facial expression recognition, where I used Python, OpenCV, TensorFlow, and CNN-based models for emotion classification.
 
-The goal of this project is to build a simple but complete research-style pipeline for facial expression recognition, including data preprocessing, model training, evaluation, and result analysis.
+## Task
 
-## Emotion Categories
+The model classifies facial images into seven emotion categories:
 
-The model is planned to classify facial images into seven basic emotion categories:
+- angry
+- disgust
+- fear
+- happy
+- sad
+- surprise
+- neutral
 
-- Angry
-- Disgust
-- Fear
-- Happy
-- Sad
-- Surprise
-- Neutral
+## Current Status
 
-## Planned Methods
+- Repository structure created
+- Baseline CNN implementation in progress
+- Training and evaluation results will be added after experiments are completed
 
-- Image preprocessing
-- CNN model implementation
-- Model training and validation
-- Accuracy and loss visualization
-- Confusion matrix analysis
-- Error analysis across emotion categories
+## Planned Evaluation
 
-## Tools
+The model will be evaluated using:
 
-- Python
-- TensorFlow
-- OpenCV
-- NumPy
-- Pandas
-- Matplotlib
-- scikit-learn
+- validation accuracy
+- training and validation loss curves
+- confusion matrix
+- per-class error analysis
 
-## Project Status
+## Limitations
 
-This project is currently in progress.
-
-Current steps:
-
-- [x] Create project repository
-- [x] Write project README
-- [ ] Prepare dataset
-- [ ] Build preprocessing pipeline
-- [ ] Implement CNN model
-- [ ] Train and evaluate model
-- [ ] Add results and analysis
-
-## Expected Output
-
-The final project will include:
-
-- Training and validation accuracy curves
-- Confusion matrix
-- Model performance summary
-- Discussion of common classification errors
-- Suggestions for future improvement
+This is a baseline reproduction project. It does not claim state-of-the-art performance. The main purpose is to demonstrate a complete and reproducible computer vision workflow.
