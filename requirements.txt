@@ -1,7 +1,7 @@
-tensorflow
-opencv-python
-numpy
-pandas
+tensorflow==2.20.0
+numpy==2.0.2
+pandas==2.2.2
+opencv-python>=4.13.0
 matplotlib
 scikit-learn
-jupyter
+kagglehub
