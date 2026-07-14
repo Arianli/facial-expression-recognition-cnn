@@ -59,9 +59,9 @@ Input images are rescaled from pixel values in the range 0–255 to 0–1.
 
 | Metric | Result |
 |---|---:|
-| Final training accuracy | approximately 66.4% |
-| Final validation accuracy | approximately 55.4% |
-| Test accuracy | approximately 55.6% |
+| Final training accuracy | approximately 70.83% |
+| Final validation accuracy | approximately 55.95% |
+| Test accuracy | approximately 55.73% |
 
 The model achieved similar validation and test accuracy, suggesting that the evaluation result is reasonably consistent.
 
